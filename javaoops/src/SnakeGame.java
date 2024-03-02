@@ -17,14 +17,14 @@ public class SnakeGame extends JPanel implements ActionListener {
  
     int boardwidth;
     int boardHeight;
-    //snake 
-    Tile snakeHead;
-     //food for the snake 
-      Tile food;
-      //random 
-      Random random;
-     // game logic
-     Timer gameLoop; 
+       //snake 
+       Tile snakeHead;
+       //food for the snake  
+       Tile food;
+       //random 
+       Random random;
+       // game logic
+       Timer gameLoop; 
 
 
     SnakeGame(int boardwidth, int boardHeight) {

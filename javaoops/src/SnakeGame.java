@@ -17,7 +17,7 @@ public class SnakeGame extends JPanel implements ActionListener {
  
     int boardwidth;
     int boardHeight;
-       //snake 
+     //snake 
        Tile snakeHead;
        //food for the snake  
        Tile food;

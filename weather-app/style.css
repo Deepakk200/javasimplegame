@@ -8,8 +8,8 @@ body{
     background : #222;
 }
 .card{
-    width: 90%;
-    max-width: 470px;
+    width: 100%;
+    max-width: 540px;
     background: linear-gradient(135deg, #00feba,#5b548a );
     color: #fff;
     margin: 100px auto;
@@ -78,9 +78,20 @@ body{
 .col img{
     width: 80px;
     margin-left: 40px;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 .humidity , .wind {
     font-size: 30px;
     margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+    display: none
+    ;
 }
